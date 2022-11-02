@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="homepage.css">
+    <title>Home</title>
+
+    <div class="main_div">
+        <a href="parmums.html"><button><b>Par mājaslapu</b></button></a>
+      </div>
+
+      <canvas id="canvas"></canvas>
+
+</head>
+
+    <div class="virs">
+    <h1 style="font-size:5vw;">HTML rokasgrāmata</h1>
+    <p style="font-size:3vw;">Iemācies, apgūsti, iesaki</p>
+</div>
+
+
+    <div class="wrapper">
+        <div class="typing-demo">
+            Lai izvēlētos tēmu nospiediet uz 3 līnijām
+            
+        </div>
+        
+    </div>
+
+
+    
+
+
+    <style>
+        h1 {text-align: center;
+            font-family: "Poppins", sans-serif;
+            color: #ffffff;
+        }
+        p {text-align: center;
+            font-family: "Poppins", sans-serif;
+            color: #ffffff;
+        }
+        
+        div.virs{
+        position: relative;
+         top: 100px;
+        }
+        
+        
+    </style>
+
+<style>
+    
+    body {
+      background-image: url('gradiant.jpg');
+      background-repeat: no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      content: "";
+ 
+    }
+    
+    body{
+        content: "";
+  position: fixed;
+  top: -10px;
+  left: -8px;
+  width: 100%;
+  height: 75px;
+  box-shadow: 0px 0 10px rgb(255, 255, 255);
+  z-index: 100;
+    }
+    </style>
+
+<header>
+    
+
+
+    <a style="font-size:45px;cursor:pointer;position:absolute;top: 5px;;left:15px;color: #ffffff; "onclick="openNav()">&#9776; </a>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        
+        .sidenav {
+            height: 100%;
+            width: 0;
+            position: fixed;
+            z-index: 1;
+            top: 0;
+            left: 0;
+            background-color: rgb(34, 31, 31);
+            overflow-x: hidden;
+            transition: 0.5s;
+            padding-top: 40px;
+        }
+
+            .sidenav a {
+                padding: 8px 8px 8px 32px;
+                text-decoration: none;
+                font-size: 25px;
+                color: #818181;
+                display: block;
+                transition: 0.3s;
+                
+            }
+
+                .sidenav a:hover {
+                    color: #f1f1f1;
+                }
+
+            .sidenav .closebtn {
+                position: absolute;
+                top: 0;
+                right: 25px;
+                font-size: 36px;
+                margin-left: 50px;
+            }
+        
+        
+    </style>
+   
+
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"> &times;</a>
+        <a href="lapa1.html">Body</a>
+        <a href="#">Head</a>
+        <a href="#">Footer</a>
+        <a href="#">Header</a>
+    </div>
+    
+    <script>
+        function openNav() {
+            document.getElementById("mySidenav").style.width = "200px";
+        }
+
+        function closeNav() {
+            document.getElementById("mySidenav").style.width = "0";
+        }
+    </script>
+    
+
+
+</header>
+
+
+<script src="script.js"></script>
+
+
+</html>
